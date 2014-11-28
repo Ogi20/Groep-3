@@ -16,6 +16,18 @@ public class game1 extends World
     public game1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 500, 1); 
+        super(800, 800, 1); 
+
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program. That is: create the initial
+     * objects and add them to the world.
+     */
+    private void prepare()
+    {
+        BoatSmall boatsmall = new BoatSmall();
+        addObject(boatsmall, 424, 88);
     }
 }

@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Fri Nov 28 23:26:55 CET 2014
+#Sat Nov 29 00:07:19 CET 2014
 target10.editor.width=900
 target2.width=90
 target8.name=ExitMedium
@@ -59,8 +59,8 @@ target11.type=ClassTarget
 target10.editor.height=700
 version=2.6.0
 target2.showInterface=false
-mainWindow.y=109
-mainWindow.x=432
+mainWindow.y=162
+mainWindow.x=305
 target5.showInterface=false
 class.MainExit.superclass=greenfoot.Actor
 target8.showInterface=false
@@ -114,6 +114,7 @@ target3.typeParameters=
 target9.showInterface=false
 target7.name=BoatMedium
 target2.naviview.expanded=true
+class.game1.image=backgroundwater.png
 package.numDependencies=0
 package.numTargets=13
 class.MainDock.superclass=greenfoot.Actor
@@ -140,10 +141,10 @@ target11.naviview.expanded=true
 target4.width=130
 target8.typeParameters=
 target5.width=80
-class.BoatSmall.image=boatSmall.png
+class.BoatSmall.image=boatSmall2.png
 target4.name=MainContainer
 target4.height=50
 target12.typeParameters=
-target1.width=90
 target13.y=130
+target1.width=90
 target13.x=100
