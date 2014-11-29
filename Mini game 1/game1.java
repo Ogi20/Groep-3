@@ -29,5 +29,14 @@ public class game1 extends World
     {
         BoatSmall boatsmall = new BoatSmall();
         addObject(boatsmall, 424, 88);
+        MainDock maindock = new MainDock();
+        addObject(maindock, 628, 493);
+        Harbor harbor = new Harbor();
+        addObject(harbor, 400, 509);
+        harbor.setLocation(405, 511);
+        removeObject(harbor);
+        Harbor harbor2 = new Harbor();
+        addObject(harbor2, 463, 662);
+        harbor2.setLocation(467, 620);
     }
 }
